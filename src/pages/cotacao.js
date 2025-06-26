@@ -58,12 +58,14 @@ export default function Cotacao() {
             className="border rounded p-2 w-full"
           />
         </div>
+        <div className="palavras">
         <button
           type="submit"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
+          className="button"
+          >
           Buscar
         </button>
+          </div>
       </form>
 
       {loading && <p className="mt-4">Carregando...</p>}
